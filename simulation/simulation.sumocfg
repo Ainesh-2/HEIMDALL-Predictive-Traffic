@@ -1,0 +1,31 @@
+<configuration>
+
+<input>
+
+<net-file value="peeragarhi_clean.net.xml"/>
+
+<route-files value="simulation.rou.xml"/>
+
+<additional-files value="vehicle_types.add.xml"/>
+
+</input>
+
+
+<time>
+
+<begin value="0"/>
+
+<end value="7200"/>
+
+<step-length value="0.5"/>
+
+</time>
+
+
+<processing>
+
+<lateral-resolution value="0.25"/>
+
+</processing>
+
+</configuration>

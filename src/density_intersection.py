@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO('models/best.pt')
+model = YOLO('models/vehicle_detection.pt')
 
 
 def detect_density(video_path):

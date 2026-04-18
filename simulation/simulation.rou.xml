@@ -1,0 +1,66 @@
+<routes>
+
+<!-- ROUTES YOU CREATED -->
+<route id="r_0" edges="E22 171505928#10 171505928#11 1492081914 1013996164 E11"/>
+<route id="r_1" edges="E22 171505928#10 171505928#11 77643442#0 E4"/>
+<route id="r_2" edges="E22 171505928#10 171505928#11 1492081914 1492081915 1463747346 198065394#0 E13"/>
+<route id="r_3" edges="171505928#10 171505928#11 1492081914 1492081915 1463747346 198065394#0 E13"/>
+<route id="r_4" edges="E22 171505928#10 171505928#11 1492081914 1492081915 1463747346 1013996163 77643442#0 E4"/>
+<route id="r_5" edges="77643459 E6 E13"/>
+<route id="r_6" edges="77643459 E15"/>
+<route id="r_7" edges="E20 E17 77643383.248"/>
+<route id="r_8" edges="E20 E21 E19 E2 E11"/>
+<route id="r_9" edges="E20 E21 E19 1446379669#0 1446379669#1 1492081915 1463747346 198065394#0 E13"/>
+<route id="r_10" edges="E22 E3 E4"/>
+<route id="r_11" edges="E20 E21 E19 1446379669#0 1446379669#1 1492081915 1463747346 1013996163 1492081914 1492081915 1463747346 1013996163 77643442#0 E4"/>
+<route id="r_12" edges="E20 E21 E19 1446379669#0 1446379669#1 1492081915 1463747346 1013996163 77643442#0 E4"/>
+<route id="r_13" edges="E20 E21 E19 1446379669#0 1446379669#1 1492081915 1463747346 1013996163 1492081914 1013996164 E11"/>
+<route id="r_14" edges="E0 E7 77643383.248"/>
+<route id="r_15" edges="E0 1013996162#0 1013996162#1 1463747346 1013996163 1492081914 1492081915 1463747346 1013996163 1492081914 1013996164 E11"/>
+<route id="r_16" edges="E0 1013996162#0 1013996162#1 1463747346 198065394#0 E13"/>
+<route id="r_17" edges="E0 1013996162#0 1013996162#1 1463747346 1013996163 77643442#0 E4"/>
+<route id="r_18" edges="E0 1013996162#0 1013996162#1 1463747346 1013996163 1492081914 1492081915 1463747346 1013996163 1492081914 1013996164 E11"/>
+
+
+<!-- INDIAN TRAFFIC FLOWS -->
+
+
+<!-- bikes dominate -->
+<flow id="bike_1" type="bike" route="r_8" begin="0" end="7200" vehsPerHour="1400"/>
+<flow id="bike_2" type="bike" route="r_9" begin="0" end="7200" vehsPerHour="1300"/>
+<flow id="bike_3" type="bike" route="r_16" begin="0" end="7200" vehsPerHour="1200"/>
+<flow id="bike_4" type="bike" route="r_5" begin="0" end="7200" vehsPerHour="1000"/>
+<flow id="bike_5" type="bike" route="r_14" begin="0" end="7200" vehsPerHour="900"/>
+
+
+<!-- autos frequent -->
+<flow id="auto_1" type="auto" route="r_8" begin="0" end="7200" vehsPerHour="600"/>
+<flow id="auto_2" type="auto" route="r_9" begin="0" end="7200" vehsPerHour="500"/>
+<flow id="auto_3" type="auto" route="r_16" begin="0" end="7200" vehsPerHour="450"/>
+
+
+<!-- cars -->
+<flow id="car_1" type="car" route="r_13" begin="0" end="7200" vehsPerHour="500"/>
+<flow id="car_2" type="car_fast" route="r_18" begin="0" end="7200" vehsPerHour="350"/>
+<flow id="car_3" type="car" route="r_12" begin="0" end="7200" vehsPerHour="450"/>
+
+
+<!-- tempos -->
+<flow id="tempo_1" type="tempo" route="r_3" begin="0" end="7200" period="40"/>
+
+
+<!-- buses periodic -->
+<flow id="bus_1" type="bus" route="r_0" begin="0" end="7200" period="120"/>
+
+
+<!-- trucks rare -->
+<flow id="truck_1" type="truck" route="r_7" begin="0" end="7200" period="90"/>
+
+
+<!-- peak hour spike -->
+<flow id="rush_bikes" type="bike" route="r_8" begin="1200" end="3600" vehsPerHour="1800"/>
+<flow id="rush_autos" type="auto" route="r_9" begin="1200" end="3600" vehsPerHour="900"/>
+<flow id="rush_cars" type="car_fast" route="r_13" begin="1200" end="3600" vehsPerHour="700"/>
+
+
+</routes>
