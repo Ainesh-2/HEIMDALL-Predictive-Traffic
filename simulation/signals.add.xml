@@ -9,7 +9,7 @@ programID="peeragarhi_rotary"
 offset="0">
 
 <phase duration="180" state="GGGG"/>
-<phase duration="5" state="yyyy"/>
+<phase duration="6" state="yyyy"/>
 
 <phase duration="360" state="rrrr"/>
 
@@ -25,7 +25,7 @@ programID="peeragarhi_rotary"
 offset="180">
 
 <phase duration="180" state="GGGG"/>
-<phase duration="5" state="yyyy"/>
+<phase duration="6" state="yyyy"/>
 
 <phase duration="360" state="rrrr"/>
 
@@ -41,7 +41,7 @@ programID="peeragarhi_rotary"
 offset="360">
 
 <phase duration="180" state="GGGG"/>
-<phase duration="5" state="yyyy"/>
+<phase duration="6" state="yyyy"/>
 
 <phase duration="360" state="rrrr"/>
 

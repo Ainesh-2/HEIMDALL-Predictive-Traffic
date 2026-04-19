@@ -6,7 +6,7 @@
 
 <route-files value="simulation3.rou.xml"/>
 
-<additional-files value="vehicle_types.add.xml,signals.add.xml"/>
+<additional-files value="signals.add.xml,vehicle_types.add.xml"/>
 
 </input>
 
