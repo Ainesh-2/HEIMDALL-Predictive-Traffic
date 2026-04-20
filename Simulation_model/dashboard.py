@@ -169,8 +169,8 @@ class Dashboard:
             text=f"Simulation time: {step}s"
 
         )
-
-        self.root.update()
+        if self.root.winfo_exists():
+            self.root.update()
 
     # fixed-time dashboard
 
