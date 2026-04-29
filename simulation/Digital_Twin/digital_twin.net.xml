@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-28T22:20:11.142763+05:30 by Eclipse SUMO netedit 1.26.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="F:\Ainesh\SUMO\Indian_Traffic\digital_twin.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="F:\Ainesh\SUMO\Indian_Traffic\digital_twin.net.xml"/>
+        <opendrive-output.lefthand-left value="true"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" lefthand="true" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,-0.00" convBoundary="-63.21,13.73,24.47,14.10" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id="E1" from="J8" to="J9" priority="-1">
+        <lane id="E1_0" index="0" speed="13.89" length="87.68" shape="24.45,8.93 -63.23,9.30"/>
+        <lane id="E1_1" index="1" speed="13.89" length="87.68" shape="24.46,12.13 -63.22,12.50"/>
+    </edge>
+
+    <junction id="J8" type="dead_end" x="24.47" y="13.73" incLanes="" intLanes="" shape="24.47,13.73 24.44,7.33"/>
+    <junction id="J9" type="dead_end" x="-63.21" y="14.10" incLanes="E1_0 E1_1" intLanes="" shape="-63.24,7.70 -63.21,14.10"/>
+
+</net>

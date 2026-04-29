@@ -1,0 +1,6 @@
+<routes>
+
+    <!-- ONLY route, NO vehicle types -->
+    <route id="r0" edges="E1"/>
+
+</routes>

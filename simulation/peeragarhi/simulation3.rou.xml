@@ -1,0 +1,153 @@
+<routes>
+
+<!-- ROUTES (your new ones) -->
+
+<route id="r_0" edges="E22 E3 E4"/>
+<route id="r_1" edges="E22 171505928#10 171505928#11 77643442#0 E4"/>
+<route id="r_2" edges="E22 171505928#10 171505928#11 1492081914 1013996164 E11"/>
+<route id="r_3" edges="E22 171505928#10 171505928#11 1492081914 1492081915 1463747346 198065394#0 E13"/>
+
+<route id="r_4" edges="77643459 E15"/>
+<route id="r_5" edges="77643459 E6 E13"/>
+
+<route id="r_6" edges="E20 E17 77643383.248"/>
+<route id="r_7" edges="E20 E21 E19 E2 E11"/>
+<route id="r_8" edges="E20 E21 E19 1446379669#0 1446379669#1 1492081915 1463747346 1013996163 1492081914 1013996164 E11"/>
+<route id="r_9" edges="E20 E21 E19 1446379669#0 1446379669#1 1492081915 1463747346 198065394#0 E13"/>
+<route id="r_10" edges="E20 E21 E19 1446379669#0 1446379669#1 1492081915 1463747346 1013996163 77643442#0 E4"/>
+
+<route id="r_11" edges="E0 E7 77643383.248"/>
+<route id="r_12" edges="E0 1013996162#0 1013996162#1 1463747346 198065394#0 E13"/>
+<route id="r_13" edges="E0 1013996162#0 1013996162#1 1463747346 1013996163 1492081914 1013996164 E11"/>
+<route id="r_14" edges="E0 1013996162#0 1013996162#1 1463747346 1013996163 77643442#0 E4"/>
+
+
+
+<!-- VEHICLE FLOWS -->
+
+
+<!-- BIKES -->
+<flow id="bike_0" route="r_0" type="bike" vehsPerHour="600" begin="0" end="7200"/>
+<flow id="bike_1" route="r_1" type="bike" vehsPerHour="700" begin="0" end="7200"/>
+<flow id="bike_2" route="r_2" type="bike" vehsPerHour="850" begin="0" end="7200"/>
+<flow id="bike_3" route="r_3" type="bike" vehsPerHour="820" begin="0" end="7200"/>
+
+<flow id="bike_4" route="r_4" type="bike" vehsPerHour="500" begin="0" end="7200"/>
+<flow id="bike_5" route="r_5" type="bike" vehsPerHour="520" begin="0" end="7200"/>
+
+<flow id="bike_6" route="r_6" type="bike" vehsPerHour="480" begin="0" end="7200"/>
+<flow id="bike_7" route="r_7" type="bike" vehsPerHour="720" begin="0" end="7200"/>
+<flow id="bike_8" route="r_8" type="bike" vehsPerHour="780" begin="0" end="7200"/>
+<flow id="bike_9" route="r_9" type="bike" vehsPerHour="760" begin="0" end="7200"/>
+<flow id="bike_10" route="r_10" type="bike" vehsPerHour="710" begin="0" end="7200"/>
+
+<flow id="bike_11" route="r_11" type="bike" vehsPerHour="520" begin="0" end="7200"/>
+<flow id="bike_12" route="r_12" type="bike" vehsPerHour="690" begin="0" end="7200"/>
+<flow id="bike_13" route="r_13" type="bike" vehsPerHour="720" begin="0" end="7200"/>
+<flow id="bike_14" route="r_14" type="bike" vehsPerHour="680" begin="0" end="7200"/>
+
+
+
+<!-- AUTOS -->
+<flow id="auto_0" route="r_0" type="auto" vehsPerHour="260" begin="0" end="7200"/>
+<flow id="auto_1" route="r_1" type="auto" vehsPerHour="290" begin="0" end="7200"/>
+<flow id="auto_2" route="r_2" type="auto" vehsPerHour="340" begin="0" end="7200"/>
+<flow id="auto_3" route="r_3" type="auto" vehsPerHour="330" begin="0" end="7200"/>
+
+<flow id="auto_4" route="r_4" type="auto" vehsPerHour="210" begin="0" end="7200"/>
+<flow id="auto_5" route="r_5" type="auto" vehsPerHour="230" begin="0" end="7200"/>
+
+<flow id="auto_6" route="r_6" type="auto" vehsPerHour="200" begin="0" end="7200"/>
+<flow id="auto_7" route="r_7" type="auto" vehsPerHour="300" begin="0" end="7200"/>
+<flow id="auto_8" route="r_8" type="auto" vehsPerHour="310" begin="0" end="7200"/>
+<flow id="auto_9" route="r_9" type="auto" vehsPerHour="300" begin="0" end="7200"/>
+<flow id="auto_10" route="r_10" type="auto" vehsPerHour="280" begin="0" end="7200"/>
+
+<flow id="auto_11" route="r_11" type="auto" vehsPerHour="220" begin="0" end="7200"/>
+<flow id="auto_12" route="r_12" type="auto" vehsPerHour="290" begin="0" end="7200"/>
+<flow id="auto_13" route="r_13" type="auto" vehsPerHour="310" begin="0" end="7200"/>
+<flow id="auto_14" route="r_14" type="auto" vehsPerHour="270" begin="0" end="7200"/>
+
+
+
+<!-- CARS -->
+<flow id="car_0" route="r_0" type="car" vehsPerHour="280" begin="0" end="7200"/>
+<flow id="car_1" route="r_1" type="car_fast" vehsPerHour="330" begin="0" end="7200"/>
+<flow id="car_2" route="r_2" type="car_fast" vehsPerHour="380" begin="0" end="7200"/>
+<flow id="car_3" route="r_3" type="car" vehsPerHour="350" begin="0" end="7200"/>
+
+<flow id="car_4" route="r_4" type="car" vehsPerHour="240" begin="0" end="7200"/>
+<flow id="car_5" route="r_5" type="car" vehsPerHour="250" begin="0" end="7200"/>
+
+<flow id="car_6" route="r_6" type="car" vehsPerHour="230" begin="0" end="7200"/>
+<flow id="car_7" route="r_7" type="car_fast" vehsPerHour="340" begin="0" end="7200"/>
+<flow id="car_8" route="r_8" type="car" vehsPerHour="320" begin="0" end="7200"/>
+<flow id="car_9" route="r_9" type="car_fast" vehsPerHour="360" begin="0" end="7200"/>
+<flow id="car_10" route="r_10" type="car" vehsPerHour="300" begin="0" end="7200"/>
+
+<flow id="car_11" route="r_11" type="car" vehsPerHour="250" begin="0" end="7200"/>
+<flow id="car_12" route="r_12" type="car_fast" vehsPerHour="330" begin="0" end="7200"/>
+<flow id="car_13" route="r_13" type="car" vehsPerHour="310" begin="0" end="7200"/>
+<flow id="car_14" route="r_14" type="car" vehsPerHour="300" begin="0" end="7200"/>
+
+<!-- TEMPOS (present on all routes, moderate frequency) -->
+
+<flow id="tempo_r0" route="r_0" type="tempo" period="160" begin="0" end="7200"/>
+<flow id="tempo_r1" route="r_1" type="tempo" period="150" begin="0" end="7200"/>
+<flow id="tempo_r2" route="r_2" type="tempo" period="140" begin="0" end="7200"/>
+<flow id="tempo_r3" route="r_3" type="tempo" period="150" begin="0" end="7200"/>
+<flow id="tempo_r4" route="r_4" type="tempo" period="180" begin="0" end="7200"/>
+<flow id="tempo_r5" route="r_5" type="tempo" period="170" begin="0" end="7200"/>
+<flow id="tempo_r6" route="r_6" type="tempo" period="200" begin="0" end="7200"/>
+<flow id="tempo_r7" route="r_7" type="tempo" period="150" begin="0" end="7200"/>
+<flow id="tempo_r8" route="r_8" type="tempo" period="140" begin="0" end="7200"/>
+<flow id="tempo_r9" route="r_9" type="tempo" period="150" begin="0" end="7200"/>
+<flow id="tempo_r10" route="r_10" type="tempo" period="160" begin="0" end="7200"/>
+<flow id="tempo_r11" route="r_11" type="tempo" period="190" begin="0" end="7200"/>
+<flow id="tempo_r12" route="r_12" type="tempo" period="150" begin="0" end="7200"/>
+<flow id="tempo_r13" route="r_13" type="tempo" period="160" begin="0" end="7200"/>
+<flow id="tempo_r14" route="r_14" type="tempo" period="155" begin="0" end="7200"/>
+
+<!-- BUSES (periodic but everywhere) -->
+
+<flow id="bus_r0" route="r_0" type="bus" period="320" begin="0" end="7200"/>
+<flow id="bus_r1" route="r_1" type="bus" period="300" begin="0" end="7200"/>
+<flow id="bus_r2" route="r_2" type="bus" period="260" begin="0" end="7200"/>
+<flow id="bus_r3" route="r_3" type="bus" period="280" begin="0" end="7200"/>
+<flow id="bus_r4" route="r_4" type="bus" period="340" begin="0" end="7200"/>
+<flow id="bus_r5" route="r_5" type="bus" period="360" begin="0" end="7200"/>
+<flow id="bus_r6" route="r_6" type="bus" period="380" begin="0" end="7200"/>
+<flow id="bus_r7" route="r_7" type="bus" period="290" begin="0" end="7200"/>
+<flow id="bus_r8" route="r_8" type="bus" period="270" begin="0" end="7200"/>
+<flow id="bus_r9" route="r_9" type="bus" period="260" begin="0" end="7200"/>
+<flow id="bus_r10" route="r_10" type="bus" period="350" begin="0" end="7200"/>
+<flow id="bus_r11" route="r_11" type="bus" period="330" begin="0" end="7200"/>
+<flow id="bus_r12" route="r_12" type="bus" period="310" begin="0" end="7200"/>
+<flow id="bus_r13" route="r_13" type="bus" period="300" begin="0" end="7200"/>
+<flow id="bus_r14" route="r_14" type="bus" period="280" begin="0" end="7200"/>
+
+<!-- TRUCKS (rare but present everywhere) -->
+
+<flow id="truck_r0" route="r_0" type="truck" period="420" begin="0" end="7200"/>
+<flow id="truck_r1" route="r_1" type="truck" period="400" begin="0" end="7200"/>
+<flow id="truck_r2" route="r_2" type="truck" period="360" begin="0" end="7200"/>
+<flow id="truck_r3" route="r_3" type="truck" period="380" begin="0" end="7200"/>
+<flow id="truck_r4" route="r_4" type="truck" period="450" begin="0" end="7200"/>
+<flow id="truck_r5" route="r_5" type="truck" period="480" begin="0" end="7200"/>
+<flow id="truck_r6" route="r_6" type="truck" period="520" begin="0" end="7200"/>
+<flow id="truck_r7" route="r_7" type="truck" period="390" begin="0" end="7200"/>
+<flow id="truck_r8" route="r_8" type="truck" period="370" begin="0" end="7200"/>
+<flow id="truck_r9" route="r_9" type="truck" period="360" begin="0" end="7200"/>
+<flow id="truck_r10" route="r_10" type="truck" period="500" begin="0" end="7200"/>
+<flow id="truck_r11" route="r_11" type="truck" period="470" begin="0" end="7200"/>
+<flow id="truck_r12" route="r_12" type="truck" period="430" begin="0" end="7200"/>
+<flow id="truck_r13" route="r_13" type="truck" period="410" begin="0" end="7200"/>
+<flow id="truck_r14" route="r_14" type="truck" period="390" begin="0" end="7200"/>
+
+<!-- RUSH HOUR -->
+<flow id="rush_bikes" route="r_8" type="bike" vehsPerHour="1700" begin="2000" end="3600"/>
+<flow id="rush_autos" route="r_9" type="auto" vehsPerHour="800" begin="2000" end="3600"/>
+<flow id="rush_cars" route="r_2" type="car_fast" vehsPerHour="950" begin="2000" end="3600"/>
+
+
+</routes>

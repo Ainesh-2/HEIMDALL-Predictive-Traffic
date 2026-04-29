@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO("models/best.pt")
+model = YOLO("models/vehicle_detection.pt")
 
 
 def detect_vehicles(video_path):
@@ -31,5 +31,5 @@ def detect_vehicles(video_path):
 
 
 if __name__ == "__main__":
-    video_path = "videos/test.mp4"
+    video_path = "videos/test_twin.mp4"
     detect_vehicles(video_path)

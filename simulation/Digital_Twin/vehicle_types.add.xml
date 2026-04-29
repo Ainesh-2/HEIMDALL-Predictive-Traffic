@@ -1,0 +1,109 @@
+<additional>
+
+<!-- 2 wheelers -->
+<vType id="bike"
+ accel="4.5"
+ decel="5.0"
+ sigma="0.95"
+ length="1.6"
+ width="0.5"
+ minGap="0.2"
+ tau="1.4"
+ maxSpeed="20"
+ lcPushy="1"
+ lcAssertive="1"
+ lcImpatience="1"
+ lcAccelLat="2.5"
+ jmDriveAfterRedTime="3"
+ jmIgnoreKeepClearTime="5"
+ color="1,1,1"
+ imgFile="visuals/bike.png"
+/>
+
+
+<!-- autos -->
+<vType id="auto"
+ accel="2.8"
+ decel="4.5"
+ sigma="0.9"
+ length="2.6"
+ width="1.2"
+ minGap="0.4"
+ tau="1.6"
+ maxSpeed="16"
+ lcPushy="1"
+ lcAssertive="1"
+ lcImpatience="0.9"
+ color="1,1,1"
+ imgFile="visuals/auto.png"
+/>
+
+
+<!-- normal cars -->
+<vType id="car"
+ accel="2.6"
+ decel="4.5"
+ sigma="0.7"
+ length="4.5"
+ width="1.8"
+ tau="1.8"
+ color="1,1,1"
+ maxSpeed="18"
+/>
+
+
+<!-- aggressive cars -->
+<vType id="car_fast"
+ accel="3.2"
+ decel="4.8"
+ sigma="0.5"
+ length="4.5"
+ width="1.8"
+ tau="1.2"
+ color="1,1,1"
+ maxSpeed="25"
+/>
+
+
+<!-- tempo -->
+<vType id="tempo"
+ accel="1.6"
+ decel="3.5"
+ sigma="0.85"
+ length="5.2"
+ width="2.0"
+ tau="2.4"
+ maxSpeed="14"
+ color="1,1,1"
+ imgFile="visuals/tempo.png"
+/>
+
+
+<!-- bus -->
+<vType id="bus"
+ accel="1.2"
+ decel="3.0"
+ sigma="0.6"
+ length="11"
+ width="2.6"
+ tau="2.8"
+ maxSpeed="13"
+ color="1,1,1"
+ imgFile="visuals/bus.png"
+/>
+
+
+<!-- truck -->
+<vType id="truck"
+ accel="1.0"
+ decel="2.8"
+ sigma="0.7"
+ length="12"
+ width="2.6"
+ tau="3.2"
+ maxSpeed="12"
+ color="1,1,1"
+ imgFile="visuals/truck.png"
+/>
+
+</additional>

@@ -1,0 +1,31 @@
+<configuration>
+
+<input>
+
+<net-file value="SBroad1.net.xml"/>
+
+<route-files value="sim3.rou.xml"/>
+
+<additional-files value="signal.add.xml,vehicle_types.add.xml"/>
+
+</input>
+
+
+<time>
+
+<begin value="0"/>
+
+<end value="7200"/>
+
+<step-length value="0.5"/>
+
+</time>
+
+
+<processing>
+
+<lateral-resolution value="0.25"/>
+
+</processing>
+
+</configuration>

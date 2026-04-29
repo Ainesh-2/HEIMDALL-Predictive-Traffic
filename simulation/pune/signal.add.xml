@@ -1,0 +1,19 @@
+<additional>
+
+    <tlLogic id="center" type="static" programID="1" offset="0">
+
+        <!-- NORTH-SOUTH GREEN -->
+        <phase duration="35" state="GGGGggrrrrrGGGGggrrrrr"/>
+
+        <!-- NORTH-SOUTH YELLOW -->
+        <phase duration="5" state="yyyyyyrrrrryyyyyyrrrrr"/>
+
+        <!-- EAST-WEST GREEN -->
+        <phase duration="35" state="rrrrrGGGGggrrrrrGGGGgg"/>
+
+        <!-- EAST-WEST YELLOW -->
+        <phase duration="5" state="rrrrryyyyyyrrrrryyyyyy"/>
+
+    </tlLogic>
+
+</additional>

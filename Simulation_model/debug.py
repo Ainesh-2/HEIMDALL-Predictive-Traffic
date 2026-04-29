@@ -6,7 +6,7 @@ if 'SUMO_HOME' in os.environ:
 
 import traci
 
-from Simulation_model.config import SUMO_CMD
+from Simulation_model.Delhi.config import SUMO_CMD
 
 
 traci.start(SUMO_CMD)
